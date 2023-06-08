@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #606C5D;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: #FFF4F4;
+    margin: 30px;
+    text-align: center;
+}
+
+h2 {
+    color: #FFFFFF;
+    margin: 5px;
+    text-align: center;
+}
+
+P {
+    text-align: center;
+    color: #FFF4F4;
+    margin: 20px;
+}
+
+.total {
+    text-align: center;
+    margin: 0;
+}
+
+.ladoEsquerdo, .ladoDireito {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    border: 1px solid black;
+    background-color: #F1C376;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: .5rem .5rem 0 var(--color-shadow, #30362f);
+}
+
+.inputBox {
+    background-color: #FFF4F4;
+    border: 1px solid black;
+    border-radius: 9px;
+    width: 4em;
+    height: 2em;
+    text-align: center;
+}
+
+/* CSS */
+.button {
+    display: block;
+    margin: 30px auto;
+    background: #F1C376;
+    border: 1px solid #F1C376;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    /*vertical-align: middle;*/
+}
+
+.button:hover,
+.button:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: #F1C376;
+}
+
+.button:active {
+    opacity: .5;
+}
+
+.resultTable {
+    margin: 0 auto;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse; /* this property makes the border of the cells collapse, without space between them */
+    vertical-align: middle;
+    border-radius: 5px !important
+}
+
+th, td {
+    border: 1px solid black; /* this property makes the border appears on the screen */
+    padding: 3px;
+    color: #FFFFFF;
+}
+
+th {
+    width: 10%;
+    font-weight: bold;
+    background-color: #30362f;
+}
+
+td {
+    background-color: #FFF4F4;
+    color: black;
+}
+
+.finalMessage {
+    margin: 25px;
+}
